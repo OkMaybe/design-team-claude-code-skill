@@ -1,0 +1,54 @@
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.cert
+*.p12
+credentials.*
+secrets.*
+**/secrets/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Claude Code internals (do not commit)
+.claude/
+*.jsonl
+
+# Build artifacts
+dist/
+build/
+*.map
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# E Book Resources (copyrighted material - do not distribute)
+E Book Resources/
+*.pdf
