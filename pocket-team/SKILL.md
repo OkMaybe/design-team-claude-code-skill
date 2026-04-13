@@ -231,3 +231,25 @@ EXPLORATORY | DIRECTED | PRECISE | EVALUATION CRITERIA
 
 ### Research
 OBJECTIVE | METHODOLOGY | FINDINGS | RECOMMENDATIONS
+---
+
+## Figma Build Pipeline
+
+When asked to build screens in Figma:
+
+1. **React artifact first.** Build the full screen as a high-fidelity React artifact (JSX) with production-level polish -- real SVG icons, proper gradients, shadows, typography, spacing, micro-interactions. This is the visual target. Apply all quality gates before showing it.
+
+2. **Quality gate checkpoint.** Run the visual design, conversion, and accessibility checklists against the artifact. Fix violations before proceeding.
+
+3. **Port to Figma via Plugin API.** Reconstruct the approved artifact in Figma using use_figma. Match the artifact pixel-for-pixel:
+   - Real SVG icon paths, not placeholder rectangles
+   - Gradient fills where the artifact uses them
+   - Corner radius variation (not uniform 8px everywhere)
+   - Drop shadows matching the artifact depth layering
+   - Auto layout on every container
+   - Semantic layer naming
+   - Proper font weights (DM Sans Bold/SemiBold/Medium, Inter Regular/Medium)
+
+4. **For map backgrounds:** Build a stylized SVG neighborhood map (fits aesthetic better than photorealistic tiles). Streets, blocks, parks rendered as warm-toned geometric shapes with labeled street names. Alternatively, paste a real Mapbox/Apple Maps screenshot as an image fill if photorealism is needed.
+
+5. **For icons:** Write actual SVG paths for pin icons, nav icons, and action icons. No placeholder shapes. Reference Lucide or Feather icon geometry where appropriate.
