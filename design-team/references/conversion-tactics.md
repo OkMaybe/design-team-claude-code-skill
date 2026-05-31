@@ -35,7 +35,7 @@
 
 **Trust Icons**: SSL badges, payment logos near payment fields.
 
-**Essential Fields Only**: Remove non-essential fields. Hicks Law.
+**Essential Fields Only**: Remove non-essential fields. Hick's Law.
 
 **Guest Checkout**: Offer without account creation. Removes commitment barrier.
 
@@ -109,7 +109,7 @@
 ## 7. Mobile UX
 
 **Mobile-First**: Phone first, scale up. Constraints force clarity.
-**Thumb-Zone Placement**: Primary actions in easy-reach zones. Fitts Law.
+**Thumb-Zone Placement**: Primary actions in easy-reach zones. Fitts's Law.
 **Large Touch Targets**: 44x44px minimum, 8px gaps.
 **Progressive Disclosure**: Essentials first, details on demand.
 **Reduced Density**: Less text, tighter hierarchy. Shorter attention.

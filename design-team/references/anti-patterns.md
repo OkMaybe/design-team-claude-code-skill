@@ -3,7 +3,7 @@
 ## Visual Anti-Slop Rules
 
 NEVER default to these without explicit reason:
-- Inter, Roboto, or Arial as display fonts -- choose distinctive typography
+- Roboto or Arial as brand/display fonts -- choose distinctive typography for headlines (Inter Regular/Medium is fine as the default UI/body font)
 - Purple-on-white gradients as default aesthetic
 - Generic card grids with rounded corners and drop shadows everywhere
 - Stock photography of people in offices looking at laptops
