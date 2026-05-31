@@ -83,6 +83,11 @@ Help me design an onboarding flow for a habit-tracking app.
 
 Claude will pull in the relevant specialist(s) and reference material automatically.
 
+## Acknowledgments
+
+Design Team is based on **Zarah's Pocket Team** — her original concept of carrying a full product
+team in your pocket. This skill builds on that idea. Huge thanks to **Zarah** for the inspiration. 🙏
+
 ## License
 
 [MIT](./LICENSE)
