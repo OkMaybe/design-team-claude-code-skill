@@ -105,8 +105,14 @@ Claude will pull in the relevant specialist(s) and reference material automatica
 
 ## Acknowledgments
 
-Design Team is based on **Zarah's Pocket Team** — her original concept of carrying a full product
-team in your pocket. This skill builds on that idea. Huge thanks to **Zarah** for the inspiration. 🙏
+**Design Team** is based on **Zarah's Pocket Team** — her original concept of carrying a full product
+team in your pocket — generalized into the five-specialist skill and maintained in this repo by
+**Billy Zajac**. Huge thanks to **Zarah** for the inspiration and to **Billy** for building it out. 🙏
+
+**Ditto**, the companion fidelity skill, was added by **Zarah**, building on Billy's Design Team repo —
+so the chain keeps going:
+
+**Zarah's Pocket Team → Billy's Design Team → Ditto** 🔗
 
 ## License
 
