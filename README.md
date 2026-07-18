@@ -46,6 +46,25 @@ design-team/
 The skill uses **progressive disclosure**: `SKILL.md` stays focused on routing and method, while the
 detailed playbooks live in `references/` and are pulled in only when a task needs them.
 
+## Companion skill: Ditto 📐
+
+This repo also ships **Ditto** — a second, complementary skill for a different job: getting an
+existing app to match a design reference *exactly*, computed-value accurate rather than just "close."
+
+Where Design Team helps you *decide* what good looks like, Ditto helps you *reproduce* a finished
+design faithfully in a real, already-built codebase. It measures the reference's exact computed CSS
+(instead of eyeballing a screenshot), applies changes through the app's **own** token system, renders
+the running app, diffs computed value against computed value, and tracks down the cascade rule that's
+overriding a change — iterating until it truly matches. It triggers on cues like *"it's not hitting
+it,"* *"looks close but wrong,"* or *"make it pixel-perfect."*
+
+```
+ditto/
+├── SKILL.md                    # The fidelity method
+└── references/
+    └── token-systems.md        # Finding & applying an app's token system, stack by stack
+```
+
 ## Installation
 
 Clone into your Claude Code skills directory so it's available across all projects:
@@ -53,6 +72,7 @@ Clone into your Claude Code skills directory so it's available across all projec
 ```bash
 git clone https://github.com/billzajac/design-team-claude-code-skill.git
 cp -r design-team-claude-code-skill/design-team ~/.claude/skills/design-team
+cp -r design-team-claude-code-skill/ditto ~/.claude/skills/ditto
 ```
 
 Or, for a single project, copy the `design-team/` folder into that project's `.claude/skills/`.
@@ -63,7 +83,7 @@ Verify it's loaded:
 /skills
 ```
 
-You should see **design-team** in the list.
+You should see **design-team** and **ditto** in the list.
 
 ## Usage
 
